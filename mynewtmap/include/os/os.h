@@ -8,6 +8,7 @@
 #include "os/os_error.h"
 #include "os/endian.h"
 #include "os/os_mempool.h"
+#include "os/os_mutex.h"
 
 #include "syscfg/syscfg.h"
 
