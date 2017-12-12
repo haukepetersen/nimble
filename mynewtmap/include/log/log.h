@@ -46,6 +46,11 @@ static inline int
 log_register(char *name, struct log *log, const struct log_handler *h,
              void *arg, uint8_t level)
 {
+    (void)name;
+    (void)log;
+    (void)h;
+    (void)arg;
+    (void)level;
     return 0;
 }
 
