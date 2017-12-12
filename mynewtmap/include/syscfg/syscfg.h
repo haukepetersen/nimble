@@ -24,5 +24,16 @@
 
 #define NIMBLE_BLE_ADVERTISE                (1)
 
+/**
+ * This enables extended advertising feature.
+ */
+#define BLE_EXT_ADV                         (0)
+
+/**
+ * This allows to configure maximum size of advertising data and
+ * scan response data used in LE Advertising Extensions.
+ * Valid range 31-238.
+ */
+#define BLE_EXT_ADV_MAX_SIZE                (31)
 
 #endif /* SYSCFG_H */
