@@ -22,7 +22,7 @@
 #define BLE_MULTI_ADV_INSTANCES             (0)
 
 
-#define NIMBLE_BLE_ADVERTISE                (1)
+// #define NIMBLE_BLE_ADVERTISE                (1)
 
 /**
  * This enables extended advertising feature.
