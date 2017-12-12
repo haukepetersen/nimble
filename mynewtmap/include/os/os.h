@@ -16,7 +16,7 @@
 #define OS_TICKS_PER_SEC        (1000000U)
 
 
-#define MYNEWT_VAL(x)       defined(x)
+#define MYNEWT_VAL(x)           x
 
 
 #ifndef min
