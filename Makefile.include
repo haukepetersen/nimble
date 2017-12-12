@@ -1,3 +1,20 @@
-INCLUDES += -I$(PKGDIRBASE)/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/controller/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/transport/ram/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/transport/emspi/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/transport/socket/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/transport/uart/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/util/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/store/ram/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/store/config/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/lls/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/bleuart/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/ias/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/ans/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/gap/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/gatt/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/services/tps/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/mesh/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/host/include
+INCLUDES += -I$(PKGDIRBASE)/nimble/include
 
 $(info "NIMBLE: Makefile.include")

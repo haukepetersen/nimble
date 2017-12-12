@@ -1,16 +1,7 @@
-# PKG_NAME    = nimble
-# # PKG_URL     = https://github.com/haukepetersen/nimble
-# # PKG_VERSION = HEAD
-# PKG_LICENSE = BSD-2-Clause
+SRC += host/src
 
-# # HACK for now
-# PKG_BUILDDIR := $(RIOTBASE)/$(PKG_NAME)
+$(info buldird $(CURDIR))
 
-# .PHONY: all
+include $(RIOTBASE)/Makefile.base
+$(info "NIMBLE - make")
 
-# all:
-# 	"$(MAKE)" -C $(PKG_BUILDDIR)/nimble.mk
-
-# include $(RIOTBASE)/pkg/pkg.mk
-
-$(info "NIMBLE: - make")
