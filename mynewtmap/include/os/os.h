@@ -3,6 +3,8 @@
 #ifndef OS_H
 #define OS_H
 
+#include "os/os_error.h"
+
 #define MYNEWT_VAL(x)       x
 
 
