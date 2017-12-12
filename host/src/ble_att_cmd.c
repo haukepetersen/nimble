@@ -6,7 +6,7 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *  http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing,
@@ -85,6 +85,9 @@ static const void *
 ble_att_init_parse(uint8_t op, const void *payload,
                    int min_len, int actual_len)
 {
+    (void)op;
+    (void)min_len;
+    (void)actual_len;
     const uint8_t *u8ptr;
 
     BLE_HS_DBG_ASSERT(actual_len >= min_len);
@@ -98,6 +101,8 @@ ble_att_init_parse(uint8_t op, const void *payload,
 static void *
 ble_att_init_write(uint8_t op, void *payload, int min_len, int actual_len)
 {
+    (void)min_len;
+    (void)actual_len;
     uint8_t *u8ptr;
 
     BLE_HS_DBG_ASSERT(actual_len >= min_len);
