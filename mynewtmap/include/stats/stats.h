@@ -20,7 +20,6 @@
 #define __UTIL_STATS_H__
 
 #include <stdint.h>
-#include "syscfg/syscfg.h"
 #include "os/queue.h"
 
 #ifdef __cplusplus
