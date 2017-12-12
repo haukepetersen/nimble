@@ -4,6 +4,9 @@
 #define OS_H
 
 #include "os/os_error.h"
+#include "os/endian.h"
+
+
 
 #define MYNEWT_VAL(x)       x
 
