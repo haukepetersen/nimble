@@ -2111,7 +2111,7 @@ ble_gap_adv_start(uint8_t own_addr_type, const ble_addr_t *direct_addr,
                   const struct ble_gap_adv_params *adv_params,
                   ble_gap_event_fn *cb, void *cb_arg)
 {
-#if !NIMBLE_BLE_ADVERTISE || MYNEWT_VAL(BLE_EXT_ADV)
+#if !NIMBLE_BLE_ADVERTISE //|| MYNEWT_VAL(BLE_EXT_ADV)
     return BLE_HS_ENOTSUP;
     #error BLBLBLB
 #else
