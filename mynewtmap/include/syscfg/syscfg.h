@@ -3,6 +3,10 @@
 #ifndef SYSCFG_H
 #define SYSCFG_H
 
+
+#define BLE_ROLE_PERIPHERAL         (1)
+
+
 #define BLE_ATT_PREFERRED_MTU       (256U)
 
 /**
@@ -21,8 +25,6 @@
  */
 #define BLE_MULTI_ADV_INSTANCES             (0)
 
-
-// #define NIMBLE_BLE_ADVERTISE                (1)
 
 /**
  * This enables extended advertising feature.
