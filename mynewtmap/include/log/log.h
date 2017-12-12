@@ -8,6 +8,8 @@
 extern "C" {
 #endif
 
+#define IGNORE(x)
+
 #define LOG_DEBUG(__l, __mod, ...) IGNORE(__VA_ARGS__)
 #define LOG_INFO(__l, __mod, ...) IGNORE(__VA_ARGS__)
 #define LOG_WARN(__l, __mod, ...) IGNORE(__VA_ARGS__)
