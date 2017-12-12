@@ -3,6 +3,8 @@
 #ifndef OS_H
 #define OS_H
 
+#include <malloc.h>
+
 #include "os/os_error.h"
 #include "os/endian.h"
 #include "os/os_mempool.h"
