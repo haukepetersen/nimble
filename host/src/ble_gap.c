@@ -2114,6 +2114,7 @@ ble_gap_adv_start(uint8_t own_addr_type, const ble_addr_t *direct_addr,
 #if !NIMBLE_BLE_ADVERTISE || MYNEWT_VAL(BLE_EXT_ADV)
     return BLE_HS_ENOTSUP;
 #else
+    #error FOOBAR
     uint32_t duration_ticks;
     int rc;
 
