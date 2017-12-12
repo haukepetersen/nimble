@@ -36,10 +36,6 @@ struct stats_hdr {
     uint8_t s_size;
     uint8_t s_cnt;
     uint16_t s_pad1;
-#if MYNEWT_VAL(STATS_NAMES)
-    const struct stats_name_map *s_map;
-    int s_map_cnt;
-#endif
     STAILQ_ENTRY(stats_hdr) s_next;
 };
 
