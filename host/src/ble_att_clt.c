@@ -6,7 +6,7 @@
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
- * 
+ *
  *  http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing,
@@ -763,7 +763,7 @@ ble_att_clt_tx_write_cmd(uint16_t conn_handle, uint16_t handle,
         assert(rc == 0);
         BLE_HS_LOG(DEBUG, "0x%02x", b);
     }
-    
+
 
     cmd = ble_att_cmd_get(BLE_ATT_OP_WRITE_CMD, sizeof(*cmd), &txom2);
     if (cmd == NULL) {
@@ -782,6 +782,8 @@ ble_att_clt_tx_write_cmd(uint16_t conn_handle, uint16_t handle,
 int
 ble_att_clt_rx_write(uint16_t conn_handle, struct os_mbuf **rxom)
 {
+    (void)rxom;
+
 #if !NIMBLE_BLE_ATT_CLT_WRITE
     return BLE_HS_ENOTSUP;
 #endif
@@ -917,6 +919,8 @@ ble_att_clt_tx_exec_write(uint16_t conn_handle, uint8_t flags)
 int
 ble_att_clt_rx_exec_write(uint16_t conn_handle, struct os_mbuf **rxom)
 {
+    (void)rxom;
+
 #if !NIMBLE_BLE_ATT_CLT_EXEC_WRITE
     return BLE_HS_ENOTSUP;
 #endif
@@ -1009,6 +1013,8 @@ err:
 int
 ble_att_clt_rx_indicate(uint16_t conn_handle, struct os_mbuf **rxom)
 {
+    (void)rxom;
+
 #if !NIMBLE_BLE_ATT_CLT_INDICATE
     return BLE_HS_ENOTSUP;
 #endif
