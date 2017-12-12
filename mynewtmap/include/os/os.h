@@ -7,6 +7,8 @@
 #include "os/endian.h"
 #include "os/os_mempool.h"
 
+#include "syscfg/syscfg.h"
+
 
 
 #define MYNEWT_VAL(x)       x
