@@ -1,0 +1,3 @@
+INCLUDES += -I$(PKGDIRBASE)/include
+
+$(info "NIMBLE: Makefile.include")
