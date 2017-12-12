@@ -22,4 +22,7 @@
 #define BLE_MULTI_ADV_INSTANCES             (0)
 
 
+#define NIMBLE_BLE_ADVERTISE                (1)
+
+
 #endif /* SYSCFG_H */
