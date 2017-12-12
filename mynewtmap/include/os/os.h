@@ -12,6 +12,8 @@
 #include "syscfg/syscfg.h"
 
 
+#define OS_TICKS_PER_SEC        (1000000U)
+
 
 #define MYNEWT_VAL(x)       x
 
