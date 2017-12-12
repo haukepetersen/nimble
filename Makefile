@@ -1,6 +1,4 @@
-SRC += host/src
-
-$(info buldird $(CURDIR))
+DIRS += host/src
 
 include $(RIOTBASE)/Makefile.base
 $(info "NIMBLE - make")
