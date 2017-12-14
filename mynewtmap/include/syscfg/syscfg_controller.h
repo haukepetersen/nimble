@@ -112,7 +112,7 @@
  *
  * This feature is implemented but currently has no impact on code or ram size
  */
-#define BLE_LL_CFG_FEAT_SLAVE_INIT_FEAT_XCHG(1)
+#define BLE_LL_CFG_FEAT_SLAVE_INIT_FEAT_XCHG    (1)
 
 /**
  * @brief   Used to set the initial maximum transmit PDU size in a connection
