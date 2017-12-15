@@ -1,2 +1,2 @@
 # nimble
-For of the Mynewt BLE stack
+Fork of the Mynewt BLE stack
